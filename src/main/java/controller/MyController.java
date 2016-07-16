@@ -1,6 +1,7 @@
 
 package controller;
 
+import model.Person;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +18,7 @@ public class MyController {
         logger.debug("MyController.home()");
         
         ModelAndView model = new ModelAndView("home");
-        model.addObject("person" , model);
+        model.addObject("person" , new Person());
         
         return model;
     }

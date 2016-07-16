@@ -5,17 +5,17 @@ package model;
  * @author Piotrek
  */
 public class Person {
-    private Integer iD;
+    private Integer email;
     private String name;
     private String lastName;
     private String companyName;
 
-    public Integer getiD() {
-        return iD;
+    public Integer getEmail() {
+        return email;
     }
 
-    public void setiD(Integer iD) {
-        this.iD = iD;
+    public void setEmail(Integer email) {
+        this.email = email;
     }
 
     public String getName() {
@@ -44,7 +44,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" + "iD=" + iD + ", name=" + name + ", lastName=" + lastName + ", companyName=" + companyName + '}';
+        return "Person{" + "iD=" + email + ", name=" + name + ", lastName=" + lastName + ", companyName=" + companyName + '}';
     }
    
     
