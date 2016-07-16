@@ -5,16 +5,16 @@ package model;
  * @author Piotrek
  */
 public class Person {
-    private Integer email;
+    private String email;
     private String name;
     private String lastName;
     private String companyName;
 
-    public Integer getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(Integer email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
